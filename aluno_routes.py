@@ -5,7 +5,7 @@ from database import SessionLocal
 
 router = APIRouter()
 
-# Dependência para pegar a sessão do banco
+
 def get_db():
     db = SessionLocal()
     try:
